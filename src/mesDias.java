@@ -1,3 +1,4 @@
+import java.time.YearMonth;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class mesDias {
@@ -6,7 +7,18 @@ public class mesDias {
         Scanner sc = new Scanner(System.in);
         double numero1 = 0;
         boolean siSeCumple = true;
+//TODO Estudia la clase yearmode
+        /*
+        lengthOfMonth(): Método que devuelve la longitud del mes en días.
+        int lengthOfMonth = currentYearMonth.lengthOfMonth();
 
+        Month month = currentYearMonth.getMonth();
+        getMonth(): Método que devuelve el mes como un objeto Month.
+
+        of(int year, int month): Método estático que devuelve un YearMonth específico
+        YearMonth specificYearMonth = YearMonth.of(2023, 5); // Representa mayo de 2023
+
+         */
 
 
     mesesAño[0] = "1/ Enero";
